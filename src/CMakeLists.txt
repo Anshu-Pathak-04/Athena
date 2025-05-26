@@ -3,4 +3,4 @@ project(MyProject C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(Athena chunk.c main.c memory.c debug.c)
+add_executable(Athena chunk.c main.c memory.c debug.c value.c)
